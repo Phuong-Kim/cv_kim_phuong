@@ -48,9 +48,9 @@
                             <p class="icon"><i class="fa-solid fa-phone"></i></p>
                             <p>0942554563</p>
                         </div>
-                        <div class="display-flex">
+                        <div class=" display-flex">
                             <p class="icon"><i class="fa-solid fa-envelope"></i></p>
-                            <p>thuongthikimphuong@gmail.com</p>
+                            <p class="mail">thuongthikimphuong@gmail.com</p>
                         </div>
                         <div class="display-flex">
                             <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
@@ -65,7 +65,7 @@
                             <p>Female</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="CAREER">
                         <h5>CAREER OBJECTIVE</h5>
                         <p>Continuously enhance my programming
                             knowledge to develop professional skills.
@@ -217,12 +217,13 @@
                 filename: 'CV_Thuong_Thi_Kim_Phuong.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
                 html2canvas: {
-                    scale: 2, // Tăng độ phân giải để rõ nét hơn
-                    useCORS: true
+                    scale: 3, // Tăng độ phân giải để rõ nét hơn
+                    useCORS: true,
+                    backgroundColor: '#ffffff',
                 },
                 jsPDF: {
                     unit: 'mm',
-                    format: 'a4',
+                    format: 'A4',
                     orientation: 'portrait'
                 }
             };
